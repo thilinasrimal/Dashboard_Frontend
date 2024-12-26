@@ -14,7 +14,7 @@
           <b-navbar-item href="/deye">
             Deye
           </b-navbar-item>
-          <b-navbar-item href="#">
+          <b-navbar-item href="/sma">
             SMA
           </b-navbar-item>
         </b-navbar-dropdown>

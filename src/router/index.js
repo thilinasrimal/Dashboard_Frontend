@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import GoodWe from "@/views/GoodWe.vue";
 import Deye from "@/views/Deye.vue";
+import SMA from "@/views/SMA.vue";
 
 Vue.use(VueRouter)
 
@@ -21,8 +22,12 @@ const routes = [
     path: '/deye',
     name: 'deye',
     component: Deye
+  },
+  {
+    path: '/sma',
+    name: 'sma',
+    component: SMA
   }
-
 
 ]
 

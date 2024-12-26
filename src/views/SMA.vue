@@ -2,7 +2,7 @@
 import axios from "axios";
 
 export default {
-  name: "deye",
+  name: "sma",
   data() {
     return {
       data: [],
@@ -35,7 +35,7 @@ export default {
 
     <div class="tableContainer">
       <div class="card">
-        <h1 class="page-header">DEYE - Stock @ <a>{{date}}</a></h1>
+        <h1 class="page-header">SMA - Stock @ <a>{{date}}</a></h1>
         <div class="heading" style="display: flex; flex-direction: row;">
           <p style="margin-left: 12px"><b>Low Stock:</b></p><a class="square"></a>
           <p style="margin-left: 12px"><b>Zero Stock:</b></p><a class="square1"></a>
@@ -67,7 +67,7 @@ export default {
     <div>
       <div class="table2-container ml-3">
         <div class="card">
-          <h1 class="page-header">DEYE - Stock Movement </h1>
+          <h1 class="page-header">SMA - Stock Movement </h1>
         </div>
         <div class="card">
           <b-table class="table table-striped"  style="border: 1px solid darkturquoise;">
