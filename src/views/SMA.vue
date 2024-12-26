@@ -16,10 +16,10 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await axios.get('http://localhost:5262/data/getDeyeStock');
+        const response = await axios.get('http://localhost:5262/data/getSMAStock');
         this.data = response.data;
 
-        const response2 = await axios.get('http://localhost:5262/data/getDeyeStockMovement');
+        const response2 = await axios.get('http://localhost:5262/data/getSMAStockMovement');
         this.data2 = response2.data;
         console.log(response2);
       } catch (error) {
